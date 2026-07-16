@@ -1,0 +1,33 @@
+OE PSIP SIP Measurement,
+PSIP_Version,1.4.0b-2,
+Separator,Comma,
+Operator,psip_user,
+Description,O&E PSIP Measurement File.
+Date,04/01/2021,
+Time,14:08:43,
+Instance,00
+***End_Of_Header***,
+User_Comment,DMB 14865,
+Stimulus Amplifier,disabled,
+Current Resistor[Ohms],10000.000000,
+Stimulus Channel Num,1,
+Response Channel Nums,1,4,8,6,5,
+Frequency Sweep(in Hz),Start,10000.000000,Stop,0.010000,
+Number of Steps,61,
+Amplitude(Volts),5.000000,
+Settle Time(Secs),1.000000,Cycle,1,
+Integration Time(Secs),5.000000,Cycle,5,
+Master/Slave Sel,None,
+External Trigger Sel,None,
+
+
+Date,04/01/2021,
+Time,14:08:43,
+Y_Unit_Label,Hz,ratio,rad,
+X_Dimension,Time,Time,Time,
+***End_Of_Header***,
+,,,Chan-1,Chan-1,Chan-1,Chan-4,Chan-4,Chan-4,Chan-8,Chan-8,Chan-8,Chan-6,Chan-6,Chan-6,Chan-5,Chan-5,Chan-5,
+X_Value,AO_sampling_rate,Frequency[Hz],Magnitude[ratio],Phase_Shift[rad],Impedance[Ohms],Magnitude[ratio],Phase_Shift[rad],Impedance[Ohms],Magnitude[ratio],Phase_Shift[rad],Impedance[Ohms],Magnitude[ratio],Phase_Shift[rad],Impedance[Ohms],Magnitude[ratio],Phase_Shift[rad],Impedance[Ohms],TimeStamp[Sec],Loop,Seq. Loop, Comment
+,100000,10000.000000,10.963327,0.717978,109633.272604,6.772810,0.144316,67728.095430,5.128775,-0.362511,51287.754837,5.648757,0.102079,56487.570593,4.689540,-0.647268,46895.403605,4,1,1
+,100000,7943.282344,0.363054,2.525123,3630.537766,2.115428,2.424273,21154.278739,1.366472,-1.773053,13664.715814,1.958996,1.072767,19589.962912,2.783497,-1.570859,27834.974012,8,1,1
+,100000,6309.573440,8.312604,0.610039,83126.043013,6.192880,0.129601,61928.800486,5.371797,-0.237842,53717.966235,5.170296,0.100246,51702.964158,4.978308,-0.420713,49783.079199,12,1,1

@@ -1,0 +1,33 @@
+OE PSIP Measurement,
+PSIP_Version,1.0.1,
+Seperator,Comma,
+Operator,psip_user,
+Description,O&E PSIP Measurement File.
+Date,22/03/2020,
+Time,17:30:13,
+Instance,00
+***End_Of_Header***,
+User_Comment,comment,
+Current Resistor[Ohms],10000.000000,
+Stimulus Channel Num,2,
+Response Channel Nums,2,
+Frequency Sweep(in Hz),Start,10000.000000,Stop,0.010000,
+Number of Steps,71,
+Amplitude(Volts),5.000000,
+Settle Time(Secs),1.000000,Cycle,1,
+Integration Time(Secs),5.000000,Cycle,5,
+Master/Slave Sel,None,
+External Trigger Sel,None,
+
+
+Date,22/03/2020,
+Time,17:30:13,
+Y_Unit_Label,Hz,ratio,rad,
+X_Dimension,Time,Time,Time,
+***End_Of_Header***,
+,,,Chan-2,Chan-2,Chan-2,
+X_Value,AO_sampling_rate,Frequency[Hz],Magnitude[ratio],Phase_Shift[rad],Impedance[Ohms],TimeStamp[Sec],Loop,Comment
+,100000,10000.000000,1.771453,0.069190,17714.526179,8,1
+,100000,8208.914157,1.766998,0.087364,17669.979098,18,1
+,100000,6738.627164,1.760393,0.109255,17603.928717,28,1
+,100000,5531.681192,1.744000,0.151488,17440.003222,38,1

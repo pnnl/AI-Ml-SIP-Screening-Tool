@@ -1,0 +1,38 @@
+OE PSIP SIP Measurement,
+PSIP_Version,1.4.0b-2,
+Separator,Comma,
+Operator,psip_user,
+Description,O&E PSIP Measurement File.
+Date,03/08/2021,
+Time,14:42:20,
+Instance,00
+***End_Of_Header***,
+User_Comment,comment,
+Stimulus Amplifier,disabled,
+Current Resistor[Ohms],10000.000000,
+Stimulus Channel Num,1,
+Response Channel Nums,1,
+Frequency Sweep(in Hz),Start,10000.000000,Stop,0.010000,
+Number of Steps,61,
+Amplitude(Volts),5.000000,
+Settle Time(Secs),1.000000,Cycle,1,
+Integration Time(Secs),5.000000,Cycle,5,
+Master/Slave Sel,None,
+External Trigger Sel,None,
+
+
+Date,03/08/2021,
+Time,14:42:20,
+Y_Unit_Label,Hz,ratio,rad,
+X_Dimension,Time,Time,Time,
+***End_Of_Header***,
+,,,Chan-1,Chan-1,Chan-1,
+X_Value,AO_sampling_rate,Frequency[Hz],Magnitude[ratio],Phase_Shift[rad],Impedance[Ohms],TimeStamp[Sec],Loop,Seq. Loop, Comment
+,100000,10000.000000,4.439641,-0.368858,44396.412855,8,1,1
+,100000,7943.282344,4.564283,-0.243599,45642.834705,18,1,1
+,100000,6309.573440,4.549876,-0.130811,45498.762996,28,1,1
+,100000,5011.872331,4.411830,-0.038790,44118.295895,38,1,1
+,100000,3981.071700,4.200564,0.028115,42005.638557,48,1,1
+,100000,3162.277654,3.965055,0.066785,39650.550419,58,1,1
+,100000,2511.886426,3.740745,0.075399,37407.450456,68,1,1
+,100000,1995.262310,3.564579,0.059777,35645.788952,78,1,1
